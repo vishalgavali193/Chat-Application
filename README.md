@@ -34,11 +34,6 @@ This is a full-stack real-time chat application featuring secure user authentica
 - DaisyUI  
 
 ---
-##Here is a preview of the chat app:
-
-![Chat app screenshot]("C:\Users\User\Documents\Chat-Application-Final\1.png")
-
----
 
 ## Contact
 
