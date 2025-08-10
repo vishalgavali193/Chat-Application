@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'http://localhost:3000',
+    origin:'https://chat-application-frontend-1.onrender.com',
     credentials:true
 };
 app.use(cors(corsOption)); 
@@ -32,4 +32,5 @@ server.listen(PORT, ()=>{
     connectDB();
     console.log(`Server listen at port ${PORT}`);
 });
+
 
