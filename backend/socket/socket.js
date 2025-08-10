@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
     cors:{
-        origin:['http://localhost:3000'],
+        origin:['https://chat-application-frontend-1.onrender.com'],
         methods:['GET', 'POST'],
     },
 });
@@ -35,4 +35,5 @@ io.on('connection', (socket)=>{
 })
 
 export {app, io, server};
+
 
