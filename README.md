@@ -1,4 +1,4 @@
-# Real-Time Chat Application https://chat-application-frontend-1.onrender.com/login
+# Real-Time Chat Application https://chat-application-frontend-1.onrender.com
 
 ## Tech Stack
 React, Redux, Node.js, Express, MongoDB, Socket.IO, Tailwind CSS, DaisyUI, JWT, Bcrypt
